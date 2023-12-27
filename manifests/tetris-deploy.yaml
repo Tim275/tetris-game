@@ -1,0 +1,21 @@
+# tetris-deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tetris-deployment
+spec:
+  replicas: 1 # adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: tetris
+  template:
+    metadata:
+      labels:
+        app: tetris
+    spec:
+      containers:
+        - name: tetris
+          image: timour259/tetris # Replace with the actual image tag
+          ports:
+            - containerPort: 80 # Replace with the port your Tetris game listens on
