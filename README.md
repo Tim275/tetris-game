@@ -10,6 +10,7 @@ Introduction to enjoy a classic Tetris Game in a Kubernetes Cluster
 ## Documentation Summary (in Pictures)
 
 
-![image](https://github.com/Tim275/tetris-game/assets/117520669/e1426b97-4dc3-412b-bb5d-0de953983721)
+![image](https://github.com/Tim275/tetris-game/assets/117520669/9d96f363-ffb7-4666-99b3-6998686f2d34)
+
 
 ![image](https://github.com/Tim275/tetris-game/assets/117520669/9bcb90ff-8b74-478e-bf58-0af9c2de77e1)
